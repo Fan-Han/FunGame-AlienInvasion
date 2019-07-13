@@ -93,7 +93,7 @@ def create_fleet(ai_settings, screen, aliens):
 
 def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
 	"""After alien hits ship"""
-	if stats.ship_left > 0:
+	if stats.ship_left > 1:
 		stats.ship_left -= 1
 	
 		# Empty aliens and bullets
